@@ -1,0 +1,12 @@
+body {
+background-color: darkslategray;
+}
+
+
+.page-head {
+  display: flex;
+  flex: 0 1 50px;
+  background-color: darkcyan;
+  border-bottom: dodgerblue 10px double;
+  justify-content: left;
+}
