@@ -2,6 +2,7 @@
   box-sizing:border-box;
   margin: 0;
   padding: 0;
+  cursor: none;
 }
 body {
 background-color: darkslategray;
@@ -91,4 +92,15 @@ nav {
 .nav-active{
   transform: translateX(0%);
   transition: 0.5s ease-in;
+}
+
+#cursor-circle {
+
+  position: absolute;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  border: solid cyan 4px;
+  border-radius: 50%;
+  
 }
